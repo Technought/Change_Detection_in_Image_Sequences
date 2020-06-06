@@ -58,4 +58,4 @@ Linux users can run the program in the bash opened in the cloned directory using
 
 **Save log** Selecting this chekcbox saves the log file in the same folder as the new video. The log files contains the detections and tracking information of the objects, how they are matched and the object IDs of missing and new objects.
 
-After setting all the inputs click on the run button to start the change detection process.
+After setting all the inputs click on the run button to start the change detection process. To abort the process click on the abort button. Click on the exit button to exit the application.
