@@ -50,7 +50,7 @@ Linux users can run the program in the bash opened in the cloned directory using
 
 **CONF_THRESHOLD:** Confidence threshold for yolo
 
-**NMS_THRESHOLD** Non maximum suppression threshold. For a better understanding of thresholds check [this](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/) article.
+**NMS_THRESHOLD** Non maximum suppression threshold. For a better understanding of NMS check [this](https://www.pyimagesearch.com/2014/11/17/non-maximum-suppression-object-detection-python/) article.
 
 **max_diaappearing:** Maximum number of frames an object must be missing to stop tracking the object.
 
