@@ -28,10 +28,15 @@ Clone the repository running the command in bash
 
 *git clone https://github.com/nandanm98/Change_Detection_in_Image_Sequences.git*
 
+
 ## Running the program
 ![](/Screenshots/out1.png)
 Windows users can run the *run.bat* file.
 
 Linux users can run the program in the bash opened in the cloned directory using the command
-
 *python main.py*
+
+Give the path og the video in the output window
+Give the required thresholds and other input parameters
+Run 
+All the output log will be saved with the output video
