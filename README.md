@@ -35,3 +35,27 @@ Windows users can run the *run.bat* file.
 Linux users can run the program in the bash opened in the cloned directory using the command
 
 *python main.py*
+
+## Inputs
+
+**Reference video path:** Enter the path of the reference video or use browse button to select the file using UI.
+
+**New video path:** Enter the path of the new video or use browse button to select the file using UI.
+
+**Rotation:** Set a rotation when loading the video frames(90, 180, 270)
+
+**Computation backend:** Backend is the API used to interact with the hardare.
+
+**Target device:** It is the device on which the computation is to be done. Refers to device such as CPU or GPU. It is different for each manufacturer. Example OpenCL for AMD GPUs and CUDA for NVIDIA GPUs.
+
+**CONF_THRESHOLD:** Confidence threshold for yolo
+
+**NMS_THRESHOLD** Non maximum suppression threshold. For a better understanding of thresholds check [this](https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/) article.
+
+**max_diaappearing:** Maximum number of frames an object must be missing to stop tracking the object.
+
+**Save output video** Selecting this chekcbox saves the ouptut video in the same folder as the new video
+
+**Save log** Selecting this chekcbox saves the log file in the same folder as the new video. The log files contains the detections and tracking information of the objects, how they are matched and the object IDs of missing and new objects.
+
+After setting all the inputs click on the run button to start the change detection process.
